@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.anu.githubrest.Tests" duration-ms="1584" started-at="2016-05-22T20:31:07Z" finished-at="2016-05-22T20:31:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1584" started-at="2016-05-22T20:31:07Z" finished-at="2016-05-22T20:31:08Z">
+      <class name="com.anu.githubrest.Tests">
+        <test-method status="PASS" signature="printurl()[pri:0, instance:com.anu.githubrest.Tests@30c7da1e]" name="printurl" duration-ms="1170" started-at="2016-05-22T13:31:07Z" finished-at="2016-05-22T13:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printurl -->
+        <test-method status="PASS" signature="testReg()[pri:0, instance:com.anu.githubrest.Tests@30c7da1e]" name="testReg" duration-ms="402" started-at="2016-05-22T13:31:08Z" finished-at="2016-05-22T13:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReg -->
+      </class> <!-- com.anu.githubrest.Tests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.anu.githubrest.Tests -->
+</testng-results>
