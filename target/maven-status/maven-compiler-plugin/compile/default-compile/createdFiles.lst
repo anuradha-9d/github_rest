@@ -1,5 +1,7 @@
+com/anu/githubrest/filetest.class
 com/anu/githubrest/restClient.class
 com/anu/githubrest/githubClientTest.class
-com/anu/githubrest/App.class
 com/anu/githubrest/githubClient.class
+com/anu/githubrest/App.class
+com/anu/githubrest/excelUtils.class
 com/anu/githubrest/githubJsonParser.class

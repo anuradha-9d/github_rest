@@ -4,7 +4,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.testng.Assert;
 
 
 public class githubJsonParser {
@@ -12,6 +11,7 @@ public class githubJsonParser {
 	
 	public githubJsonParser(String Json) throws ParseException{
 		JSONParser parser = new JSONParser();
+		jsonObject = (JSONArray) parser.parse(Json);
 	}
 	
 	
