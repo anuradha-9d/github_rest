@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.anu.githubrest.Tests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.909 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.92 sec <<< FAILURE!
+printurl(com.anu.githubrest.Tests)  Time elapsed: 0.86 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.anu.githubrest.githubJsonParser.printurl(githubJsonParser.java:19)
+	at com.anu.githubrest.Tests.printurl(Tests.java:53)
+

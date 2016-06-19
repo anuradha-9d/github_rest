@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.anu.githubrest.githubClientTests">
+      <class name="com.anu.githubrest.Tests">
         <methods>
-          <include name="testReg"/>
+          <include name="printurl"/>
+          <include name="testowner"/>
         </methods>
-      </class> <!-- com.anu.githubrest.githubClientTests -->
+      </class> <!-- com.anu.githubrest.Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
